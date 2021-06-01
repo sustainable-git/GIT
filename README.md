@@ -17,7 +17,7 @@
 
 ## GIT 설정하기
 - git config --global user.name "이름" && git config --global user.email "이메일"을 설정해준다. GitHub 아이디가 있는 경우 동일하게 기입하자
-<p align = "center"><img src = ""/></p>
+<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/03-window-git-user.jpg?raw=true"/></p>
 
 - git config --global core.autocrlf input(Mac), git config --global core.autocrlf true(Window)를 기입한다
   - 위는 운영체제에 따른 개행(Mac : LF / Window : CR, LF)의 차이를 처리하기 위함이다
