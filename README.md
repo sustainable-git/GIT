@@ -14,3 +14,7 @@
     - `git config --global core.autocrlf true`(Window)
     - `git config --global core.editor "xed --wait"`(Xcode)
     - `git config --global core.editor "code --wait"`(Visual Studio Code)
+#
+- [GIT 생성하고 삭제하기🗑](https://github.com/sustainable-git/GIT/blob/main/contents/03_init.md)
+  -  `git init`
+  -  `rm -rf .git`
