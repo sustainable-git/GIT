@@ -18,3 +18,12 @@
 - [GIT 생성하고 삭제하기🗑](https://github.com/sustainable-git/GIT/blob/main/contents/03_init.md)
   -  `git init`
   -  `rm -rf .git`
+#
+- [Staging Area에서 파일 Track 또는 Untrack 하기👀✨](https://github.com/sustainable-git/GIT/blob/main/contents/04_add.md)
+  -  `git add 파일명`
+     -  `git add .`
+  -  `git rm --cached 파일명`
+  -  `echo 파일명 > .gitignore`
+     - `echo *.log > .gitignore`
+  -  `git status`
+     -  `git status -s`
