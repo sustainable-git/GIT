@@ -33,3 +33,9 @@
     - `git diff --staged`
   - `git difftool`
     - `[diff] tool = vscode` `[difftool "vscode"] cmd = code --wait --diff $LOCAL $REMOTE`
+#
+- [Commit하여 GIT에 저장하고, 불러오기📥📤](https://github.com/sustainable-git/GIT/blob/main/contents/06_commit.md)
+  - `git commit -m "커밋 메시지"`
+  - `git log`
+    - `git log --oneline --graph --all`
+  - `git checkout 해시코드`
