@@ -27,3 +27,9 @@
      - `echo *.log > .gitignore`
   -  `git status`
      -  `git status -s`
+#
+- [Staging Area에서 Track된 파일의 변경사항 확인하기🔍](https://github.com/sustainable-git/GIT/blob/main/contents/05_diff.md)
+  - `git diff`
+    - `git diff --staged`
+  - `git difftool`
+    - `[diff] tool = vscode` `[difftool "vscode"] cmd = code --wait --diff $LOCAL $REMOTE`
