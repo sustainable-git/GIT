@@ -1,4 +1,4 @@
-## Staging Area에서 파일 Track 또는 Untrack 하기
+## Working Directory에서 파일 Track 또는 Untrack 하기
 - track 하려는 파일이 있다면 `git add 파일명`을 입력한다
 - `one.txt`라는 테스트 파일을 만들고, `git add one.txt`하면 아래와 같다
 <p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/08-git-add.jpg?raw=true"/></p>

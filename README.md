@@ -19,7 +19,7 @@
   -  `git init`
   -  `rm -rf .git`
 #
-- [Staging Area에서 파일 Track 또는 Untrack 하기👀✨](https://github.com/sustainable-git/GIT/blob/main/contents/04_add.md)
+- [Working Directory에서 파일 Track 또는 Untrack 하기👀✨](https://github.com/sustainable-git/GIT/blob/main/contents/04_add.md)
   -  `git add 파일명`
      -  `git add .`
   -  `git rm --cached 파일명`
