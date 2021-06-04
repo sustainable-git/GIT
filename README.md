@@ -43,3 +43,11 @@
 - [Alias를 이용하여 나만의 단축 명령어를 사용하자✈](https://github.com/sustainable-git/GIT/blob/main/contents/07_alias.md)
   - `git config --global alias.명령어 "단축할 명령어"`
   - `git log --pretty=명령어`
+#
+- [Log를 이용해 히스토리 조회하기(심화)📑](https://github.com/sustainable-git/GIT/blob/main/contents/08_log.md)
+  - `git log 명령어`
+    - `git log -숫자`
+    - `git log --before="날짜"`
+    - `git log --author="이름"`
+    - `git log --grep="커밋 메시지"`
+    - `git log -S "파일명"`
