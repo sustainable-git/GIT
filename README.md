@@ -42,3 +42,4 @@
 #
 - [Alias를 이용하여 나만의 단축 명령어를 사용하자✈](https://github.com/sustainable-git/GIT/blob/main/contents/07_alias.md)
   - `git config --global alias.명령어 "단축할 명령어"`
+  - `git log --pretty=명령어`
