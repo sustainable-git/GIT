@@ -55,3 +55,11 @@
 - [[Control-Z] 되돌리기↩](https://github.com/sustainable-git/GIT/blob/main/contents/09_undo.md)
   - `git commit --amend`
   - `git restore -- 파일명`
+#
+- [Tag를 이용해 간단하게 버전 표시하기✒](https://github.com/sustainable-git/GIT/blob/main/contents/10_tag.md)
+  - `git tag`
+    - `git tag -l 태그명`
+    - `git tag -d 태그명`
+  - `git tag 태그명`
+    - `git tag 태그명 해시코드 -a -m "태그 메시지"`
+  - `git show 해시코드`
