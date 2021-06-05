@@ -51,3 +51,7 @@
     - `git log --author="이름"`
     - `git log --grep="커밋 메시지"`
     - `git log -S "파일명"`
+#
+- [[Control-Z] 되돌리기↩](https://github.com/sustainable-git/GIT/blob/main/contents/09_undo.md)
+  - `git commit --amend`
+  - `git restore -- 파일명`
