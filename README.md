@@ -78,3 +78,10 @@
 - [Merge! 하나의 Branch로 병합하기🔗](https://github.com/sustainable-git/GIT/blob/main/contents/12_merge.md)
   - `git merge 브랜치명`
     - `git merge --no-ff`
+
+#
+- [Merge Conflict와 Merge Tool🧷](https://github.com/sustainable-git/GIT/blob/main/contents/13_conflict.md)
+  - `git merge --abort`
+  - `git merge --continue`
+  - `git mergetool`
+    - `[merge] tool = vscode` `[mergetool "vscode"] cmd = code --wait $MERGED`
