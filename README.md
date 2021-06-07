@@ -74,3 +74,7 @@
     - `git switch -C 브랜치명`
   - `git branch --move 브랜치명 바꿀브랜치명`
   - `git branch -d 브랜치명`
+#
+- [Merge! 하나의 Branch로 병합하기🔗](https://github.com/sustainable-git/GIT/blob/main/contents/12_merge.md)
+  - `git merge 브랜치명`
+    - `git merge --no-ff`
