@@ -85,3 +85,9 @@
   - `git merge --continue`
   - `git mergetool`
     - `[merge] tool = vscode` `[mergetool "vscode"] cmd = code --wait $MERGED`
+#
+- [Rebase와 Cherry-Pick🍒](https://github.com/sustainable-git/GIT/blob/main/contents/14_rebase.md)
+  - `git rebase 브랜치명`
+    - `git rebase 브랜치명 브랜치명`
+    - `git rebase --onto 브랜치명 브랜치명 브랜치명`
+  - `git cherry-pick 해시코드`
