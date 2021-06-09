@@ -91,3 +91,22 @@
     - `git rebase 브랜치명 브랜치명`
     - `git rebase --onto 브랜치명 브랜치명 브랜치명`
   - `git cherry-pick 해시코드`
+#
+- [GIT 도구 - Stash, Clean⛏](https://github.com/sustainable-git/GIT/blob/main/contents/15_stash.md)
+  - `git stash push -m "스태시 메시지"`
+    - `git stash`
+    - `git stash -u`
+    - `git stash --keep-index`
+  - `git stash list`
+    - `git stash show 스태시`
+    - `git stash show 스태시 --patch`
+  - `git stach apply 스태시`
+    - `git stash pop 스태시`
+  - `git stash drop 스태시`
+    - `git stash clear`
+  - `git stash branch 브랜치명`
+  - `git clean`
+    - `git clean -fd`
+    - `git clean -x`
+    - `git clean -d -n`
+
