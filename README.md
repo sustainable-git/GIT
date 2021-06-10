@@ -109,4 +109,10 @@
     - `git clean -fd`
     - `git clean -x`
     - `git clean -d -n`
+#
+- [Reset으로 되돌아가기⏮](https://github.com/sustainable-git/GIT/blob/main/contents/16_reset.md)
+  - `git reset`
+    - `git reset --soft 해시코드`
+    - `git reset --hard 해시코드`
+  - `git restore --source=해시코드 파일명`
 
