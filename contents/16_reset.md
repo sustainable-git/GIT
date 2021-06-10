@@ -31,3 +31,13 @@
 - 이럴 때에는 `git restore --source=해시코드 파일명` 명령어를 이용하자
 - 아래와 같이 `2.txt`가 없는 상태로 `restore` 하게 되면, `2.txt`가 삭제된다
 <p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/77-git-restore-source.jpg?raw=true"/></p>
+
+<br>
+ <br>
+
+### 특정 `commit`의 변경사항만 삭제하기
+- 특정 `commit`에서 수정한 사항이 문제를 일으킬 때가 있다
+- 이럴 때에는`git revert 해시코드` 명령어를 사용해 해당 `commit`만 삭제해줄 수 있다
+- 아래와 같이 `2.txt`의 수정사항을 없애려면, 해당 `commit`을 `revert` 해주면 된다
+<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/78-git-revert.jpg?raw=true"/></p>
+<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/79-git-revert-result.jpg?raw=true"/></p>
