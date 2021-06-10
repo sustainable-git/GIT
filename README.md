@@ -115,4 +115,4 @@
     - `git reset --soft 해시코드`
     - `git reset --hard 해시코드`
   - `git restore --source=해시코드 파일명`
-
+  - `git revert 해시코드`
