@@ -116,3 +116,9 @@
     - `git reset --hard 해시코드`
   - `git restore --source=해시코드 파일명`
   - `git revert 해시코드`
+#
+- [GIT 도구 - RefLog📜](https://github.com/sustainable-git/GIT/blob/main/contents/17_reflog.md)
+  - `git reflog`
+    - `git reflog expire --expire=시간 --all`
+  - `git show HEAD@{숫자}`
+  - `git show 브랜치명@{시간}`
