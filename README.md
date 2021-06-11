@@ -122,3 +122,8 @@
     - `git reflog expire --expire=시간 --all`
   - `git show HEAD@{숫자}`
   - `git show 브랜치명@{시간}`
+#
+- [Rebase -i 옵션으로 Commit 수정하기✂](https://github.com/sustainable-git/GIT/blob/main/contents/18_rebase_i.md)
+  - `git rebase -i`
+    - `git rebase --abort`
+    - `git rebase --continue`
