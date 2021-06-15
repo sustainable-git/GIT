@@ -5,6 +5,7 @@
 - Mac을 사용하는 경우
   - Apple Git이 탑재된 상태로 출고되기 때문에 다운받을 필요가 없다
   - 단, 최신버전으로 업데이트할 필요가 있을 수도 있다
+<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/03-mac-gitversion.jpg?raw=true" width=600 /></p>
 
 - Windows를 사용하는 경우
   - GIT이 없다면 [CMDER](https://cmder.net/)을 다운받자(GIT을 포함해 다운받기 위해 Download Full을 클릭)
