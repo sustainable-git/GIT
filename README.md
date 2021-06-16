@@ -128,9 +128,17 @@
     - `git rebase --abort`
     - `git rebase --continue`
 #
-- [GIT 도구 - GIT으로 버그찾기(Blame, Bisect)](https://github.com/sustainable-git/GIT/blob/main/contents/19_debug.md)
+- [GIT 도구 - GIT으로 버그찾기(Blame, Bisect)🐛](https://github.com/sustainable-git/GIT/blob/main/contents/19_debug.md)
   - `git blame 파일명`
     - `git blame -C -L 숫자,숫자 파일명`
   - `git bisect start`
     - `git bisect good`
     - `git bisect bad`
+#
+- [GitHub - Remote 저장소 활용하기☁](https://github.com/sustainable-git/GIT/blob/main/contents/20_github.md)
+  - `git remote`
+    - `git remote -v`
+  - `git clone 주소`
+  - `git push`
+  - `git pull`
+  - `git fetch`
