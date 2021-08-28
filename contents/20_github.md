@@ -5,6 +5,25 @@
 - GIT을 사용하는 목적은 대부분 다른 사람들과 함께 일하기 위해서이고, 그러려면 서로의 작업물을 공유할 수 있어야 한다
 - 이럴 때 `GitHub`와 같은 온라인 `remote` 저장소를 활용하면, 쉽고 편리하게 작업내용을 공유할 수 있다
 
+<br>
+ <br>
+
+### 시작하기 전에
+- github에서는 2021-08-13 부로 password 입력으로 권한을 인증하는 방식이 폐지되었다
+- 때문에 Token 혹은 SSH를 이용한 방법으로 인증을 해야만 한다
+- 이 글은 2021-08-13 이전에 작성되었기 때문에 `push`와 `pull`에서 password 인증으로 예시를 보여주고 있다
+- 따라서 아래 링크를 통해 Token과 ssh를 이용하는 방법을 익혀 사용하기 바란다
+    - [Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) : 만약 Git이 처음이라면 이 방법을 추천한다
+    - [SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
+```
+remote: Support for password authentication was removed on August 13, 2021.
+Please use a personal access token instead.
+```
+
+<br>
+ <br>
+
 ### GitHub Repository 만들기
 - GitHub를 이용하기 위해서는, 계정을 만든 뒤 `repository`를 만들어야 한다
 <p align = "center"><img src = "../imageFiles/100-github-new.jpg?raw=true"/></p>
