@@ -146,3 +146,6 @@
   - `git push`
   - `git pull`
   - `git fetch`
+#
+- [Git과 Terminal 커스텀 세팅🪄](./contents/21_custom.md)
+  - `git config --global`  
