@@ -1,4 +1,4 @@
-## Git과 Terminal 커스텀 세팅
+# Git과 Terminal 커스텀 세팅
 - 개발자는 데스트 셋업 부터 시작하여 개발 환경을 자신에 맞게 커스텀 세팅하기를 좋아한다
 - 이 포스팅은 그러한 개발자들을 위한 글이다
 
@@ -9,7 +9,7 @@
 - 맥용 터미널 프로그램은 다양하게 존재하지만, 가장 유명한 것은 iTerm2이다
 - 하지만 iTerm2 유저들은 단순히 기본 기능만 사용하는 것이 아니라 본인에게 편리한 테마를 이용해 작업한다
 - 이를 이용하면 아래와 같이 다양한 정보를 시각적으로 보여주도록 커스텀 세팅이 가능하다
-<img src="..imageFiles/113.iterm2.jpg">
+<p align="center"> <img width=600 src="../imageFiles/113-iterm2.jpg"> </p>
 
 - [iTerm2](https://iterm2.com)
 - [[개발 환경] iTerm2로 터미널 커스텀하기](https://ooeunz.tistory.com/21)
@@ -25,7 +25,6 @@
 - `git config`에서는 전역 `.gitignore`를 생성할 수 있으며, 이에 `.gitignore`을 `git`에 유지하지 않고도 항상 특정 파일을 제외할 수 있다
 - 이를 사용하려면, 터미널에서 `git config --global core.excludesFile ~/.gitignore`를 입력하면 된다
 - 단, 기존과 동일하게 `~/.gitignore` 파일을 열어서 제외할 파일을 직접 입력하고 저장해 주어야 정상 작동한다
-
 <br>
 
 ### defaultBranch
