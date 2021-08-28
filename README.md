@@ -140,6 +140,8 @@
 - [GitHub - Remote 저장소 활용하기☁](./contents/20_github.md)
   - `git remote`
     - `git remote -v`
+    - `git remote add origin 주소`
+    - `git remote remove 주소`
   - `git clone 주소`
   - `git push`
   - `git pull`
