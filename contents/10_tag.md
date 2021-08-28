@@ -10,18 +10,18 @@
 - 가능하면 이용하지 않거나, 임시로 `tag`가 필요할 때에만 사용하는 것이 좋다
 - `git tag 태그명`을 입력하면 가장 최근의 `commit`에 `tag`를 달아줄 수 있다
 - 또는 `git tag 태그명 해시코드`를 입력하여 특정 `hash code`에 `tag`를 달아주어도 된다
-<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/35-lightweight-tag.jpg?raw=true"/></p>
-<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/36-lightweight-tag2.jpg?raw=true"/></p>
+<p align = "center"><img src = "../imageFiles/035-lightweight-tag.jpg?raw=true"/></p>
+<p align = "center"><img src = "../imageFiles/036-lightweight-tag2.jpg?raw=true"/></p>
 <br>
  <br>
 
 ### Annotated Tag
 - `annotated tag`는 GIT 데이터베이스에 `tag`를 만든 사람의 이름, 이메일, 날짜, `tag message`를 저장한다
 - `git tag -a`명령어를 사용하며, `git tag -a -m 태그명`명령어를 이용하면 `tag message`도 입력 가능하다
-<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/37-annotated-tag.jpg?raw=true"/></p>
+<p align = "center"><img src = "../imageFiles/037-annotated-tag.jpg?raw=true"/></p>
 
 - `tag message`등 `tag`의 정보를 보려면 `git show 해시코드`를 이용해서 확인할 수 있다
-<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/38-annotated-tag-show.jpg?raw=true"/></p>
+<p align = "center"><img src = "../imageFiles/038-annotated-tag-show.jpg?raw=true"/></p>
 
 <br>
  <br>
@@ -29,7 +29,7 @@
 ### Tag 조회 및 삭제
 - `tag` 전체를 조회할 때에는 `git tag` 명령어를 이용하면 된다
 - 특정 `tag`명을 조건으로 검색하려면 `git tag -l 태그명`을 이용하면 된다
-<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/39-git-tag.jpg?raw=true"/></p>
+<p align = "center"><img src = "../imageFiles/039-git-tag.jpg?raw=true"/></p>
 
 - `tag`를 삭제하고자 할 때에는 `git tag -d 태그명`을 사용하면 된다
-<p align = "center"><img src = "https://github.com/sustainable-git/GIT/blob/main/imageFiles/40-git-tag-d.jpg?raw=true"/></p>
+<p align = "center"><img src = "../imageFiles/040-git-tag-d.jpg?raw=true"/></p>
