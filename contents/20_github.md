@@ -1,3 +1,4 @@
+
 ## GitHub - Remote 저장소 활용하기
 
 - `remote` 저장소는 인터넷이나 네트워크 어딘가에 있는 저장소를 말한다
@@ -18,9 +19,29 @@
 
 - 저장소를 등록하려면 `repository`의 주소를 알아야 한다
 - `repository` 창으로 돌아가 오른쪽의 클립보드에 복사 버튼을 누른 후 `terminal`로 돌아온다
-- `git clone 주소` 명령어를 이용해서 `remote` 저장소의 내용을 복사해주자
+- 여기서 `git remote add origin 주소` 명령어를 입력하자
+- 단, 이 경우에는 반드시 `git pull` 을 이용해  `Remote`저장소와 진행사항을 맞추어 주어야 한다
+ <p align = "center"><img src = "../imageFiles/102-git-remote-address.jpg?raw=true"/></p>
+ <p align = "center"><img src = "../imageFiles/111-git-remote-add.jpg?raw=true"/></p>
+ <p align = "center"><img src = "../imageFiles/106-git-pull.jpg?raw=true"/></p>
+
+<br>
+ <br>
+
+### Remote 저장소를 그대로 복사해 가져오기
+- **WARNING!** 위의 방식대로 이미 하였다면, 바로 [아래](#Remote-저장소에-commit-저장하기)로 내려가자
+- `git clone`은 현재 터미널이 위치한 곳에서 `remote`저장소 폴더를 `local`로 가져오는 기능을 한다
+- `git clone 주소` 명령어를 이용하여 `remote` 저장소의 내용을 복사해주자
+- `git clone`을 이용하면 따로 `git remote add`를 할 필요가 없어 더욱 편리하다
 <p align = "center"><img src = "../imageFiles/102-git-remote-address.jpg?raw=true"/></p>
 <p align = "center"><img src = "../imageFiles/103-git-clone.jpg?raw=true"/></p>
+
+<br>
+ <br>
+
+### Remote 저장소 삭제하기
+- `Remote` 저장소를 잘못 등록한 경우, `git remote remove 저장소`를 이용해 삭제하면 된다
+<p align = "center"><img src = "../imageFiles/112-git-remote-remove.jpg?raw=true"/></p>
 
 <br>
  <br>
