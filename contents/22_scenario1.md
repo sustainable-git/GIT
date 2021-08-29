@@ -30,7 +30,7 @@
 
 |upstream|origin|
 |:-:|:-:|
-|<img 114>|<img 115>|
+|<img src="../imageFiles/114.jpg">|<img src="../imageFiles/115.jpg">|
 
 <br>
  <br>
@@ -41,7 +41,7 @@
 - 때문에 `git clone -b 브랜치명 --single-branch 주소` 명령어를 이용해야 한다
 - 여기서 `git branch -v`를 해보면 main도 없이 우리가 받고자 했던 `branch`만 존재한다는 것을 알 수 있다
 
-<img 116>
+<p align="center"><img width=600 src="../imageFiles/116.jpg"></p>
 <br>
  <br>
 
@@ -50,7 +50,7 @@
 - 조직에서 우리에게 부여한 `branch`가 우리의 `main`이기 때문에, 여기서 새로운 `branch`를 추가로 만들어 추후에 `merge`하는 것이 옳다
 - 대부분 `dev branch`를 만들어 작업한다
 
-<img 117>
+<p align="center"><img width=600 src="../imageFiles/117.jpg"></p>
 <br>
  <br>
 
@@ -60,7 +60,7 @@
 - 이 때, 우리에게 배정된 `FrontPage` `branch`에 적용하면 안된다
 - 신중하게 우리가 만든 `dev` `branch`로 `git push origin 브랜치명`을 반드시 입력해주자
 
-<img 118><img 119>
+<p align="center"><img width=480 src="../imageFiles/118.jpg"><img width=480 src="../imageFiles/119.jpg"></p>
 <br>
  <br>
 
@@ -72,8 +72,8 @@
 - 이 부분에서 가장 중요한 것은 `base`와 `compare`가 잘 적용되었는지 확인하는 것이다
 - `Create pull request`를 보내고 나면, 끝이다
 
-<img 120>
-<img 121>
+<p align="center"><img width=720 src="../imageFiles/120.jpg"></p>
+<p align="center"><img width=720 src="../imageFiles/121.jpg"></p>
 <br>
  <br>
  
@@ -82,8 +82,8 @@
 - `downstream`이 `pull request`를 잘 보내었는지 확인하고, 이를 수용하거나 거절할 수 있다
 - 여기서 `upstream`은 3가지 방식으로 `merge`할 수 있는데, `Rebase and merge` 방식으로 한다고 가정하겠다
 
-<img 122>
-<img 123>
+<p align="center"><img width=720 src="../imageFiles/122.jpg"></p>
+<p align="center"><img width=720 src="../imageFiles/123.jpg"></p>
 <br>
  <br>
  
@@ -92,7 +92,7 @@
 - `git branch -D 브랜치명`을 입력해서 `local`에서 삭제해 준다
 - 이후 `git push origin -d 브랜치명`을 입력해서 `origin`에서 삭제해 준다
 
-<img 124>
+<p align="center"><img width=600 src="../imageFiles/124.jpg"></p>
 <br>
  <br>
  
@@ -101,7 +101,7 @@
 - 이후 `git fetch upstream 브랜치명`을 이용해 `upstream`의 특정 `branch`만 `fetch`하자
 - 여기서 `git rebase upstrea/브랜치명`으로 `local`을 `upstream`과 동기화 해주면 된다
 
-<img 125>
+<p align="center"><img width=600 src="../imageFiles/125.jpg"></p>
 <br>
  <br>
  
@@ -109,4 +109,4 @@
 - `git log`를 보면 origin만 따로 있는 것을 볼 수 있다
 - 여기서 `git push -f origin 브랜치명` 명령으로 동기화하면 모든 작업이 완료된다
 
-<img 126><img 127>
+<p align="center"><img width=480 src="../imageFiles/126.jpg"><img width=480 src="../imageFiles/127.jpg"></p>
