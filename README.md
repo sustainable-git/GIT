@@ -146,6 +146,10 @@
   - `git push`
   - `git pull`
   - `git fetch`
+
 #
-- [Git과 Terminal 커스텀 세팅🪄](./contents/21_custom.md)
+- [시나리오 - Pull request](./contents/22_scenario1.md)
+
+#
+- [Git과 Terminal 커스텀 세팅✈️](./contents/21_custom.md)
   - `git config --global`  
