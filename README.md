@@ -137,6 +137,7 @@
   - `git bisect start`
     - `git bisect good`
     - `git bisect bad`
+    - `git bisect reset`
 #
 - [GitHub - Remote 저장소 활용하기☁](./contents/20_github.md)
   - `git remote`
